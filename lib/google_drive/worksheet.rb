@@ -302,8 +302,8 @@ module GoogleDrive
               cell_entries[[row, col]] = entry
             end
 
-            if chunck_size == 0
-              chunck_size = @modified.length()
+            if chunk_size == 0
+              chunk_size = @modified.length()
             end
 
             # Updates cell values using batch operation.
